@@ -115,7 +115,7 @@
 
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$.getJSON("https://github.com/SuezoSilver/suezosilver.github.io/blob/master/news/cache.json", function(allNews) {
+				$.getJSON("https://suezosilver.github.io/test/news/cache.json", function(allNews) {
 					var news = allNews.slice(0, 10);
 					localStorage.setItem("newsCache", JSON.stringify(news));
 					renderNews(news);   
