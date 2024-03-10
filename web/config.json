@@ -1,0 +1,8 @@
+{
+	"General" : {
+		"allowPatching" : true,
+		"policyMessage" : "",
+		"patchList" : "patchList.txt",
+		"fileRoot" : "http://suezosilver.github.io/web/data/"
+	}
+}

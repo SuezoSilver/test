@@ -1,0 +1,711 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+button {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button {
+  text-transform: none;
+}
+button {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  p,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h3 {
+    page-break-after: avoid;
+  }
+  .label {
+    border: 1px solid #000;
+  }
+}
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+h3 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 24px;
+}
+p {
+  margin: 0 0 10px;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.row {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.col-sm-6, .col-xs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .col-sm-6 {
+    float: left;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn:focus,
+.btn:active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+.btn:active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.btn-link {
+  color: #337ab7;
+  font-weight: normal;
+  border-radius: 0;
+}
+.btn-link,
+.btn-link:active {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-link,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  border-color: transparent;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #23527c;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+.label-success {
+  background-color: #5cb85c;
+}
+.label-info {
+  background-color: #5bc0de;
+}
+.label-warning {
+  background-color: #f0ad4e;
+}
+.label-danger {
+  background-color: #d9534f;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+@-ms-viewport {
+  width: device-width;
+}
+/*!
+ *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* makes the font 33% larger relative to the icon container */
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/*! jQuery UI - v1.11.2 - 2014-10-28
+* http://jqueryui.com
+* Includes: core.css, draggable.css, resizable.css, selectable.css, sortable.css, accordion.css, autocomplete.css, button.css, datepicker.css, dialog.css, menu.css, progressbar.css, selectmenu.css, slider.css, spinner.css, tabs.css, tooltip.css
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+
+
+/* Interaction Cues
+----------------------------------*/
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+/* to make room for the icon, a width needs to be set here */
+/* button elements seem to need a little more width */
+
+/* button text element */
+/* no icon support for input elements, provide padding by default */
+
+/* button icon element(s) */
+
+/* button sets */
+
+/* workarounds */
+/* reset extra padding in Firefox, see h5bp.com/l */
+
+/* with multiple calendars */
+
+/* RTL support */
+
+/* icon support */
+
+/* left-aligned */
+
+/* right-aligned */
+
+/* support: IE8 - See #6727 */
+/* more specificity required here to override default borders */
+/* vertically center icon */
+
+/* TR overrides */
+/* included only when we don't want to use fonts from google server */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-300.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans-400.woff) format('woff');
+}
+
+/* aaace */
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  background-color: #e4e6e9;
+  min-height: 100%;
+  padding-bottom: 0;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  color: #393939;
+  line-height: 1.5;
+}
+.page-content {
+  background-color: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 5px 5px 5px;
+}
+h3 {
+  font-size: 22px;
+  font-weight: normal;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-left: 25px;
+  padding: 0;
+}
+.middle {
+  vertical-align: middle;
+}
+/**
+.no-underline {
+ text-decoration: none !important;
+}
+.no-hover-underline:hover {
+ text-decoration: none !important;
+}
+.no-outline:focus {
+ outline: none !important;
+}
+
+.no-box-shadow {
+ .box-shadow(none) !important;
+}
+
+.overflow-auto {overflow: auto !important;}
+.overflow-visible {overflow: visible !important;}
+*/
+/**
+@media (min-width: @grid-float-breakpoint) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+	margin-right: 0;
+  }
+}
+*/
+/**li .@{icon} {
+ & , .nav-list & {
+	width: auto;
+ }
+}*/
+/**
+//http://updates.html5rocks.com/2012/09/Stacking-Changes-Coming-to-position-fixed-elements
+//webkit & Chrome22+ special case
+//webkit is not following the standard specs as of Chrome22+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	//like it happens in Firefox&IE, we expect when we set "z-index:auto" for fixed position .sidebar,
+	//the child .submenu elements "z-index" is independent
+	//and for example a "z-index:1031" .submenu appears on top of a fixed .navbar with "z-index:1030"
+	//and a "z-index:1010" .popover appears on top of ".sidebar" but below ".submenu"
+	//but webkit defines a new stacking context on "fixed" position elements(.sidebar here)
+	//and the above doesn't happen, in fact .submenu inside fixed .sidebar with "z-index:auto" will appear below everything
+	//so we set a good(?) "z-index" for .sidebar, but still it's not as good as standard specs (such as in Firefox)
+	//and we may need other workarounds!
+	//and you may change it based on your needs
+
+	//it's possible have standard functionality in Chrome by going to:
+	//chrome://flags/#fixed-position-creates-stacking-context
+	//changing "Fixed position elements create stacking contexts" to "Disabled"
+	//and removing the following rules
+	//and assignning a higher "@submenu-zindex"
+
+	.sidebar.sidebar-fixed {
+		z-index: @zindex-sidebar-fixed;//???!
+		
+		&::before {
+			height: 5000px;
+			top: auto;
+			bottom: auto;
+		}
+    }
+}
+*/
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .sidebar ::safari-only {
+    margin: 0;
+  }
+}
+/**
+	@media (min-width: @screen-sm-min) and (max-width: @grid-float-breakpoint-max) {
+	 .main-container.container .sidebar.sidebar-fixed
+	 {
+		left: auto;// !important;
+		right: auto;// !important;
+		width: @container-sm;// !important;
+	 }
+	}
+
+
+	@media (max-width: @grid-float-breakpoint-max) {
+		.main-container.container .sidebar.sidebar-fixed {
+			.sidebar-shortcuts {
+				max-height: none;
+				border-bottom-width: 0;
+			}
+		}
+	}
+	*/
+/**
+@media only screen and (max-width: @grid-float-breakpoint-max) {
+	.menu-toggler + .sidebar.h-sidebar {
+		margin-top: (@breadcrumb-height - 1) !important;
+	}
+	.sidebar.h-sidebar.responsive-min , .sidebar.h-sidebar.navbar-collapse {
+		margin-top: auto !important;
+	}
+}
+*/
+/**
+@media (max-width: @grid-float-breakpoint-max) {
+ .breadcrumbs-fixed {
+	position: relative;
+	left: auto !important;
+	right: auto !important;
+	top: auto !important;
+	width: auto !important;
+	
+	+ .page-content {
+		padding-top: @page-content-padding-top;
+	}
+ }
+}
+*/
+.btn {
+  display: inline-block;
+  color: #FFF !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: none !important;
+  border: 5px solid #FFF;
+  border-radius: 0;
+  box-shadow: none !important;
+  -webkit-transition: background-color 0.15s, border-color 0.15s, opacity 0.15s;
+  -o-transition: background-color 0.15s, border-color 0.15s, opacity 0.15s;
+  transition: background-color 0.15s, border-color 0.15s, opacity 0.15s;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 0;
+  position: relative;
+  /**
+ &:hover, &:focus, &.focus, .open > &.dropdown-toggle {
+	color: #FFF;
+	box-shadow: none;
+ }
+ */
+}
+button.btn:active {
+  top: 1px;
+}
+.btn,
+.btn:focus {
+  background-color: #abbac3 !important;
+  border-color: #abbac3;
+}
+.btn:hover,
+.btn:active {
+  background-color: #8b9aa3 !important;
+  border-color: #abbac3;
+}
+.btn.btn-link {
+  border-width: 0 !important;
+  background: transparent none !important;
+  color: #0088cc !important;
+  text-shadow: none !important;
+  padding: 4px 12px !important;
+  line-height: 20px !important;
+}
+.btn.btn-link:hover {
+  background: none !important;
+  text-shadow: none !important;
+}
+.label {
+  border-radius: 0;
+  text-shadow: none;
+  font-weight: normal;
+  color: #ffffff;
+  display: inline-block;
+  background-color: #abbac3;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  ::safari-only {
+    display: inline-block;
+  }
+  ::safari-only {
+    display: inline-block;
+  }
+}
+.label-info,
+.label.label-info {
+  background-color: #3a87ad;
+}
+.label-success,
+.label.label-success {
+  background-color: #82af6f;
+}
+.label-danger,
+.label.label-danger {
+  background-color: #d15b47;
+}
+.label-warning,
+.label.label-warning {
+  background-color: #f89406;
+}
+.label-purple,
+.label.label-purple {
+  background-color: #9585bf;
+}
+.label {
+  font-size: 12px;
+  line-height: 1.15;
+  height: 20px;
+}
+.label.label-white {
+  color: #879da9;
+  border: 1px solid #abbac3;
+  background-color: #f2f5f6;
+  border-right-width: 1px;
+  border-left-width: 2px;
+}
+.label-white.label-success {
+  color: #7b9e6c;
+  border-color: #9fbf92;
+  background-color: #edf3ea;
+}
+.label-white.label-warning {
+  color: #d9993e;
+  border-color: #e4ae62;
+  background-color: #fef6eb;
+}
+.label-white.label-danger {
+  color: #bd7f75;
+  border-color: #d28679;
+  background-color: #fcf4f2;
+}
+.label-white.label-info {
+  color: #4e7a8f;
+  border-color: #7aa1b4;
+  background-color: #eaf3f7;
+}
+.label-white.label-purple {
+  color: #7d6fa2;
+  border-color: #b7b1c6;
+  background-color: #efedf5;
+}
+/**
+input[type=radio].ace @{lbl}::before {
+	border-radius:100%;
+	font-size: 34px;
+	font-family: Helvetica, Arial, "Sans-Serif";//looks better but incosistent
+	line-height: 13px;
+}
+*/
+/* CSS3 on/off switches */
+/* bigger tab buttons */
+.nav-tabs > li:not(.active):not(.open) > a:not(:hover) > .ace-icon:first-child.disabled {
+  color: #909090 !important;
+}
+/* bigger tab buttons */
+/* background for tab links */
+/* tables */
+/* popover */
+/**
+.progress {
+  position: relative;
+}
+.progress:before {
+  display: inline-block;
+  content: "";
+  
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+ 
+  background: radial-gradient(9px 9px 0deg, circle cover, aqua 0%, rgba(0, 0, 255, 0) 100%, blue 95%);
+}
+*/
+/* social login */
+/**
+.widget-main {
+	.fc {
+		position:relative;
+		top:-40px;
+		
+		> .fc-header {
+			position:relative;
+			z-index:10;
+		}
+		
+		.fc-header-space {
+			padding-left:2px;
+		}
+	}
+	
+	.fc-header-title > h2 {
+		font-size: floor(@base-font-size * 1.4);
+		line-height: 36px;
+	}
+	
+	.fc-content {
+		top:-14px;
+		z-index:11;
+	}
+	
+	.fc-button-content {
+		height:37px;
+		line-height:36px;
+	}
+	
+}
+*/
+/**
+.chosen-select {
+  display: inline !important; //for validation plugin to work it must be displayed
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-width: 0;
+}
+*/
+/** chosen - etc */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* for adding image resize functionality in chrome and safari */
+}
+/* inside widget */
+/* colors */
+/* dialog */
+	
+/* accordion */
+/* tabs */
+/* menu */
+/* auto complete */
+/* checkbox container */
+/* custom animated icons */
+.page-content > .row .col-xs-12 {
+  float: left;
+  max-width: 100%;
+}
+@media only screen and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+.no-skin {
+  /**
+	.nav-list > li.disabled.active:after {
+		border-color: #999;
+	}
+	.nav-list li.disabled li.active > a:after,
+	.nav-list li.active.disabled > a:after {
+		-moz-border-right-colors: #999 !important;
+		border-right-color: #999 !important;
+	}
+	*/
+}
+@media only screen and (min-width: 992px) {
+  .no-skin .sidebar.navbar-collapse .nav-list > li.open.hover:not(:hover):not(:focus):not(.active) > a {
+    color: #585858;
+  }
+  .no-skin .sidebar.navbar-collapse .nav-list > li.open.hover:not(:hover):not(:focus):not(.active) > a > .arrow {
+    color: inherit;
+  }
+  .no-skin .sidebar.navbar-collapse .nav-list > li > .submenu li.open.hover:not(:hover):not(:focus):not(.active) > a {
+    color: #616161;
+  }
+  .no-skin .sidebar.navbar-collapse .nav-list > li > .submenu li.open.hover:not(:hover):not(:focus):not(.active) > a > .arrow {
+    color: inherit;
+  }
+}
+@media print {
+  .btn {
+    background: transparent none !important;
+    border-width: 1px !important;
+    border-radius: 0 !important;
+    color: #555 !important;
+  }
+  .label {
+    border: 1px solid #666 !important;
+  }
+}

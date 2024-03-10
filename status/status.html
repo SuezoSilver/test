@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link rel="stylesheet" href="http://suezosilver.github.io/news/assets/css/bootstrap.css" />
+
+<title>STATUS</title>
+
+<style type="text/css">
+body {
+	padding:0px 0px;
+	background-color: #FFFFFF;
+	background-image: url(http://suezosilver.github.io/status/img/loading.gif);
+	background-repeat: no-repeat;
+	background-position:0px 0px;
+	-moz-user-select : none;
+	-webkit-user-select: none;
+	border:0px solid #abc3d2;
+}
+</style>
+
+<script type="text/javascript">
+function load(){
+        var ifr=$('<iframe/>', {
+            id:'status',
+            src:'http://59.127.210.223/status.php',
+            style:'display:none;width:250px;height:30px;margin:0px 0px',
+            marginheight:'0px',
+            marginheight:'0px',
+            align:'top',
+            scrolling:'no',
+            frameborder:'no',
+            load:function(){
+                $(this).show();
+				$("body,html").css("background-image","none");
+                //alert('Loaded');
+            }
+        });
+        $('body').append(ifr);    
+};
+</script>
+
+<script type="text/javascript">
+function iEsc(){ return false; }
+function iRec(){ return true; }
+function DisableKeys() {
+	if(event.ctrlKey || event.shiftKey || event.altKey) {
+		window.event.returnValue=false;
+		iEsc();}
+	}
+	document.ondragstart=iEsc;
+	document.onkeydown=DisableKeys;
+	document.oncontextmenu=iEsc;
+	if (typeof document.onselectstart !="undefined")
+		document.onselectstart=iEsc;
+	else{
+		document.onmousedown=iEsc;
+		document.onmouseup=iRec;
+	}
+function DisableRightClick(qsyzDOTnet){
+	if (window.Event){
+		if (qsyzDOTnet.which == 2 || qsyzDOTnet.which == 3)
+			iEsc();
+	} else if (event.button == 2 || event.button == 3){
+				event.cancelBubble = true
+				event.returnValue = false;
+				iEsc();}
+	}
+</script>
+
+</head>
+	<body onload="load()" scroll="no" oncontextmenu="javascript:return false">
+	</body>
+</html>
