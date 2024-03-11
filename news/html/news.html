@@ -113,40 +113,7 @@
 			});
 		</script>
 
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$.getJSON("https://suezosilver.github.io/test/news/html/cache.json", function(allNews) {
-					var news = allNews.slice(0, 10);
-					localStorage.setItem("newsCache", JSON.stringify(news));
-					renderNews(news);   
-				});
-			});
-	
-			function renderNews(news) {
-				$.each(news, function(i, data) {
-					// 根据 'category'的内容進行條件判斷，為每個區塊分配不同的div
-					var divElement;
-					switch (data.category) {
-						case "info":
-							divElement = '<span class="label label-info label-white middle">綜合</span>';
-							break;
-						case "danger":
-							divElement = '<span class="label label-danger label-white middle">重要</span>';
-							break;
-						case "warning":
-							divElement = '<span class="label label-warning label-white middle">維護</span>';
-							break;
-						case "success":
-							divElement = '<span class="label label-success label-white middle">活動</span>';
-							break;
-						default:
-							divElement = '<span class="label label-white middle">其他</span>';
-					}
-			
-					$("#accordion").append("<div class='group'><h3 class='accordion-header'>" + divElement + data.title + "</h3><div><p>" + data.description + "<a href='" + data.link + "'>Read more</a></p></div></div>");    
-				});
-			}
-		</script>
+		<script src="news.js" type="text/javascript"></script>
 		
 		<!-- the following scripts are used in demo only for onpage help and you don't need them -->
 	</body>
