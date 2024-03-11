@@ -1,34 +1,40 @@
 [
   {
+	"category": "維護",
+	"title": "2024/03/11(一) 例行性維護通知",
+	"icon": "warning",
+	"content": "test"
+  },
+  {
 	"category": "重要",
-    "title": "即將改版",
-    "content": "新聞內容2"
+	"title": "即將改版",
+	"content": "新聞內容2"
   },
   {
 	"category": "維護",
-    "title": "2024/03/10(日) 例行性維護通知",
+	"title": "2024/03/10(日) 例行性維護通知",
 	"icon": "warning",
-    "content": "test"
+	"content": "test"
   },
   {
 	"category": "綜合",
-    "title": "新聞標題0",
-    "content": "新聞內容0"
+	"title": "新聞標題0",
+	"content": "新聞內容0"
   },
   {
 	"category": "更新",
-    "title": "2024/03/10(日)更新項目",
+	"title": "2024/03/10(日)更新項目",
 	"icon": "warning",
-    "content": "新聞內容1<br>測試"
+	"content": "新聞內容1<br>測試"
   },
   {
 	"category": "活動",
-    "title": "新聞標題2",
-    "content": "新聞內容2"
+	"title": "新聞標題2",
+	"content": "新聞內容2"
   },
   {
 	"category": "重要",
-    "title": "新聞標題3",
-    "content": "新聞內容4"
+	"title": "新聞標題3",
+	"content": "新聞內容4"
   }
 ]
